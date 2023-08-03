@@ -6,11 +6,8 @@ use Illuminate\Pagination\Paginator;
 
 class AppServiceProvider extends ServiceProvider
 {
-    public function boot(){
-       Paginator::useBootstrap(); 
-
+    public function boot()
+    {
+        Paginator::useBootstrap();   //動画
     }
-   
 }
- 
- 
